@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_person"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="會員:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/accname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sfdfd"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        app:layout_constraintTop_toTopOf="@id/tv1"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/accname2"
+        app:layout_constraintTop_toTopOf="@id/accname2"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選擇票種:"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="幼兒票(160元):"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv3"
+        app:layout_constraintTop_toBottomOf="@id/tv3"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成人票(200元):"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv4"
+        app:layout_constraintTop_toBottomOf="@id/tv4"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老人票(180元):"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv5"
+        app:layout_constraintTop_toBottomOf="@id/tv5"/>
+
+    <TextView
+        android:id="@+id/childticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0  張"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        app:layout_constraintLeft_toRightOf="@id/tv4"
+        app:layout_constraintTop_toTopOf="@id/tv4"/>
+
+    <TextView
+        android:id="@+id/adulticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0  張"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        app:layout_constraintLeft_toRightOf="@id/tv5"
+        app:layout_constraintTop_toTopOf="@id/tv5"/>
+
+    <TextView
+        android:id="@+id/oldticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0  張"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        app:layout_constraintLeft_toRightOf="@id/tv6"
+        app:layout_constraintTop_toTopOf="@id/tv6"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="幼兒票"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv6"
+        app:layout_constraintTop_toBottomOf="@id/tv6"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成人票"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv7"
+        app:layout_constraintTop_toBottomOf="@id/tv7"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老人票"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv8"
+        app:layout_constraintTop_toBottomOf="@id/tv8"/>
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:text="總共:"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="@id/tv9"
+        app:layout_constraintTop_toBottomOf="@id/tv9"/>
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="0  元"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@id/tv10"
+        app:layout_constraintTop_toTopOf="@id/tv10"/>
+
+    <Button
+        android:id="@+id/childbutton_minus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="-"
+        app:layout_constraintLeft_toRightOf="@id/tv7"
+        app:layout_constraintBottom_toBottomOf="@id/tv7"/>
+
+    <Button
+        android:id="@+id/adultbutton_minus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="-"
+        app:layout_constraintLeft_toRightOf="@id/tv8"
+        app:layout_constraintBottom_toBottomOf="@id/tv8"/>
+
+    <Button
+        android:id="@+id/oldbutton_minus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="-"
+        app:layout_constraintLeft_toRightOf="@id/tv9"
+        app:layout_constraintBottom_toBottomOf="@id/tv9"/>
+
+    <Button
+        android:id="@+id/childbutton_plus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="+"
+        app:layout_constraintLeft_toRightOf="@id/childseekbar"
+        app:layout_constraintBottom_toBottomOf="@id/tv7"/>
+
+    <Button
+        android:id="@+id/adultbutton_plus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="+"
+        app:layout_constraintLeft_toRightOf="@id/adultseekbar"
+        app:layout_constraintBottom_toBottomOf="@id/tv8"/>
+
+    <Button
+        android:id="@+id/oldbutton_plus"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-9dp"
+        android:text="+"
+        app:layout_constraintLeft_toRightOf="@id/oldseekbar"
+        app:layout_constraintBottom_toBottomOf="@id/tv9"/>
+
+    <SeekBar
+        android:id="@+id/childseekbar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toRightOf="@id/childbutton_minus"
+        app:layout_constraintBottom_toBottomOf="@id/childbutton_minus"/>
+
+    <Button
+        android:id="@+id/nextpage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#00008b"
+        android:text="結帳"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/fontpage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#00008b"
+        android:text="上一步"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <SeekBar
+        android:id="@+id/adultseekbar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toRightOf="@id/adultbutton_minus"
+        app:layout_constraintBottom_toBottomOf="@id/adultbutton_minus"/>
+
+    <SeekBar
+        android:id="@+id/oldseekbar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toRightOf="@id/oldbutton_minus"
+        app:layout_constraintBottom_toBottomOf="@id/oldbutton_minus"/>
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="3dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="#cc000000"
+        android:visibility="gone">
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/tv1_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="0%"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

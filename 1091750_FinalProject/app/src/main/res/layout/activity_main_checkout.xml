@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_checkout"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:text="會員:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="sfdfd"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        app:layout_constraintTop_toTopOf="@id/tv1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@id/accname3"
+        app:layout_constraintTop_toTopOf="@id/accname3" />
+
+    <TextView
+        android:id="@+id/accc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <TextView
+        android:id="@+id/thee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/accc"
+        app:layout_constraintTop_toBottomOf="@id/accc" />
+
+    <TextView
+        android:id="@+id/moviel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/thee"
+        app:layout_constraintTop_toBottomOf="@id/thee" />
+
+    <TextView
+        android:id="@+id/movied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/moviel"
+        app:layout_constraintTop_toBottomOf="@id/moviel" />
+
+    <TextView
+        android:id="@+id/moviet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/movied"
+        app:layout_constraintTop_toBottomOf="@id/movied" />
+
+    <TextView
+        android:id="@+id/movietopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/moviet"
+        app:layout_constraintTop_toBottomOf="@id/moviet" />
+
+    <TextView
+        android:id="@+id/childt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/movietopic"
+        app:layout_constraintTop_toBottomOf="@id/movietopic" />
+
+    <TextView
+        android:id="@+id/adultt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/childt"
+        app:layout_constraintTop_toBottomOf="@id/childt" />
+
+    <TextView
+        android:id="@+id/oldt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/adultt"
+        app:layout_constraintTop_toBottomOf="@id/adultt" />
+
+    <TextView
+        android:id="@+id/totalm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/oldt"
+        app:layout_constraintTop_toBottomOf="@id/oldt" />
+
+    <TextView
+        android:id="@+id/accc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="購買會員:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <TextView
+        android:id="@+id/thee_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交易代碼:"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/accc_tv"
+        app:layout_constraintTop_toBottomOf="@id/accc_tv" />
+
+    <TextView
+        android:id="@+id/moviel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="影院:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/thee_tv"
+        app:layout_constraintTop_toBottomOf="@id/thee_tv" />
+
+    <TextView
+        android:id="@+id/movied_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="日期:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/moviel_tv"
+        app:layout_constraintTop_toBottomOf="@id/moviel_tv" />
+
+    <TextView
+        android:id="@+id/moviet_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="時間:"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/movied_tv"
+        app:layout_constraintTop_toBottomOf="@id/movied_tv" />
+
+    <TextView
+        android:id="@+id/movietopic_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="電影:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/moviet_tv"
+        app:layout_constraintTop_toBottomOf="@id/moviet_tv" />
+
+    <TextView
+        android:id="@+id/childt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="兒童票:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/movietopic_tv"
+        app:layout_constraintTop_toBottomOf="@id/movietopic_tv" />
+
+    <TextView
+        android:id="@+id/adultt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成人票:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/childt_tv"
+        app:layout_constraintTop_toBottomOf="@id/childt_tv" />
+
+    <TextView
+        android:id="@+id/oldt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老人票:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/adultt_tv"
+        app:layout_constraintTop_toBottomOf="@id/adultt_tv" />
+
+    <TextView
+        android:id="@+id/totalm_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="總共:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/oldt_tv"
+        app:layout_constraintTop_toBottomOf="@id/oldt_tv" />
+
+    <Button
+        android:id="@+id/nextpage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#00008b"
+        android:text="返回首頁"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

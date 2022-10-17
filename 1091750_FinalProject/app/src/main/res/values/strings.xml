@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string-array name="moviedate">
+        <item>5/27(禮拜五)</item>
+        <item>5/28(禮拜六)</item>
+        <item>5/29(禮拜日)</item>
+        <item>5/30(禮拜一)</item>
+        <item>5/31(禮拜二)</item>
+        <item>6/1(禮拜三)</item>
+        <item>6/2(禮拜四)</item>
+        <item>6/3(禮拜五)</item>
+    </string-array>
+
+    <string-array name="movietime">
+        <item>(a.m) 8:00 ~ 10:00</item>
+        <item>(a.m) 10:00 ~ 12:00</item>
+        <item>(p.m) 12:00 ~ 2:00</item>
+        <item>(p.m) 2:00 ~ 4:00</item>
+        <item>(p.m) 4:00 ~ 6:00</item>
+        <item>(p.m) 6:00 ~ 8:00</item>
+        <item>(p.m) 8:00 ~ 10:00</item>
+        <item>(p.m) 10:00 ~ 12:00</item>
+    </string-array>
+
+    <string-array name="movietopic">
+        <item>@drawable/index_icon_03</item>
+        <item>@drawable/index_icon_02</item>
+        <item>@drawable/index_icon_04</item>
+        <item>@drawable/index_icon_03</item>
+        <item>@drawable/index_icon_01</item>
+        <item>@drawable/index_icon_05</item>
+        <item>@drawable/index_icon_03</item>
+        <item>@drawable/index_icon_02</item>
+        <item>@drawable/index_icon_01</item>
+        <item>@drawable/index_icon_02</item>
+    </string-array>
+</resources>
